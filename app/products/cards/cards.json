@@ -1,0 +1,188 @@
+[
+  {
+    "name": "Mifare 1k",
+    "slug": "mifare-1k",
+    "description": "A widely used contactless smart card with 1KB memory, ideal for access control, attendance, and transit applications.",
+    "category": "smart"
+  },
+  {
+    "name": "Mifare 4k",
+    "slug": "mifare-4k",
+    "description": "A higher-capacity Mifare card offering more memory for advanced access control and multi-application use.",
+    "category": "smart"
+  },
+  {
+    "name": "RFID Thick Card",
+    "slug": "rfid-thick-card",
+    "description": "A durable RFID card with increased thickness, designed for rugged use and long-term performance.",
+    "category": "contactless"
+  },
+  {
+    "name": "RFID Card",
+    "slug": "rfid-card",
+    "description": "A standard contactless card used for access control, identification, and automation systems.",
+    "category": "contactless"
+  },
+  {
+    "name": "NFC 213 Card",
+    "slug": "nfc-213-card",
+    "description": "An NFC-enabled card suitable for authentication, digital sharing, and mobile-based NFC applications.",
+    "category": "contactless"
+  },
+  {
+    "name": "13.56MHz White Smart Card",
+    "slug": "white-smart-card",
+    "description": "A blank HF smart card operating at 13.56MHz, ready for printing and encoding in secure systems.",
+    "category": "smart"
+  },
+  {
+    "name": "Proximity Card",
+    "slug": "proximity-card",
+    "description": "A contactless card that works with proximity readers for quick and secure access control.",
+    "category": "contactless"
+  },
+  {
+    "name": "NFC Card",
+    "slug": "nfc-card",
+    "description": "A versatile contactless card compatible with smartphones and NFC readers for tap-and-go usage.",
+    "category": "contactless"
+  },
+  {
+    "name": "RFID Card w/o Number",
+    "slug": "rfid-wo-number",
+    "description": "An unnumbered RFID card ideal for clean branding, custom printing, or backend-based identification.",
+    "category": "contactless"
+  },
+  {
+    "name": "UHF Card",
+    "slug": "uhf-card",
+    "description": "A long-range RFID card designed for vehicle access, asset tracking, and logistics applications.",
+    "category": "smart"
+  },
+  {
+    "name": "RFID Chip Card",
+    "slug": "rfid-chip-card",
+    "description": "A contactless card with an embedded chip for secure data storage and controlled access.",
+    "category": "smart"
+  },
+  {
+    "name": "Chip Card",
+    "slug": "chip-card",
+    "description": "A smart card with an integrated chip used for secure identification and data protection.",
+    "category": "smart"
+  },
+  {
+    "name": "Sticky Card",
+    "slug": "sticky-card",
+    "description": "An adhesive-backed card that can be attached to existing cards, badges, or surfaces.",
+    "category": "pvc"
+  },
+  {
+    "name": "PVC Card",
+    "slug": "pvc-card",
+    "description": "A standard plastic card used for ID cards, memberships, and general-purpose printing.",
+    "category": "pvc"
+  },
+  {
+    "name": "NFC 216 Glossy Card",
+    "slug": "nfc-216-glossy",
+    "description": "A high-memory NFC card with a glossy finish, suitable for premium branding and digital interactions.",
+    "category": "contactless"
+  },
+  {
+    "name": "NFC Matt Finish Card",
+    "slug": "nfc-matt",
+    "description": "An NFC card with a matte surface, ideal for reduced glare and professional-looking prints.",
+    "category": "contactless"
+  },
+  {
+    "name": "Metal Card",
+    "slug": "metal-card",
+    "description": "A premium metal card offering high durability and a distinctive, high-end appearance.",
+    "category": "pvc"
+  },
+  {
+    "name": "Printed Card",
+    "slug": "printed-card",
+    "description": "A ready-to-use card with custom graphics, logos, or variable data already printed.",
+    "category": "pvc"
+  },
+  {
+    "name": "Magnetic Card",
+    "slug": "magnetic-card",
+    "description": "A card with a magnetic stripe used for swipe-based access, payment, or identification systems.",
+    "category": "pvc"
+  },
+  {
+    "name": "Mifare Printed Card",
+    "slug": "mifare-printed",
+    "description": "A pre-printed Mifare smart card combining secure contactless technology with custom branding.",
+    "category": "smart"
+  },
+  {
+    "name": "125KHz Card",
+    "slug": "125Khz",
+    "description": "A low-frequency proximity card commonly used in basic access control systems.",
+    "category": "contactless"
+  },
+  {
+    "name": "NFC Printed Card",
+    "slug": "nfc-printed",
+    "description": "A printed NFC card designed for branding, access, or smart marketing applications.",
+    "category": "contactless"
+  },
+  {
+    "name": "NXP Printed Card",
+    "slug": "nxp-printed-card",
+    "description": "A smart card using NXP chips, printed and ready for secure identification or access use.",
+    "category": "smart"
+  },
+  {
+    "name": "NXP Ntag Card",
+    "slug": "nxp-tag-card",
+    "description": "An NFC smart card powered by NXP NTAG chips, ideal for smartphone interaction and digital content sharing.",
+    "category": "smart"
+  },
+  {
+    "name": "ID Card Lanyard",
+    "slug": "lanyard",
+    "description": "Durable and comfortable lanyards designed for secure ID badge carrying. Ideal for corporate offices, events, schools, and secure facilities.",
+    "category": "consumables"
+  },
+  {
+    "name": "ID Card Holder",
+    "slug": "holder",
+    "description": "Protective card holders that keep ID badges safe from damage while ensuring clear visibility. Available in multiple orientations and materials.",
+    "category": "consumables"
+  },
+  {
+    "name": "ID Card Software",
+    "slug": "software",
+    "description": "Professional card design and management software for creating, encoding, and printing secure ID credentials with ease and precision.",
+    "category": "consumables"
+  },
+  {
+    "name": "NTAG Label",
+    "slug": "ntag",
+    "description": "High-performance NFC labels ideal for smart identification, access control, and asset tracking applications with reliable read/write capability.",
+    "category": "consumables"
+  },
+  {
+    "name": "UHF Wet Inlay 9662",
+    "slug": "wet-inlay",
+    "description": "Long-range UHF RFID inlay designed for asset tracking, inventory management, and supply chain applications with excellent read performance.",
+    "category": "consumables"
+  },
+  {
+    "name": "UHF Reader Label",
+    "slug": "reader",
+    "description": "RFID-enabled labels optimized for use with UHF readers, enabling fast and accurate tracking of assets and inventory.",
+    "category": "consumables"
+  },
+  {
+    "name": "4k Prelam",
+    "slug": "prelam",
+    "description": "High-frequency 4K RFID pre-laminated inlay used in smart cards for secure access control, campus IDs, and contactless authentication systems.",
+    "category": "consumables"
+  }
+]

@@ -1,0 +1,182 @@
+[
+  {
+    "name": "Datacard SD360 YMCKT-KT Ribbon",
+    "slug": "dc-ymckt",
+    "description": "Full-colour (YMCK) printing\nIncludes topcoat for card protection\nProduces sharp images and text\nDesigned for Datacard SD360 printers",
+    "category": "Colour"
+  },
+  {
+    "name": "Entrust Datacard EM2 Full Ribbon",
+    "slug": "entrust-dc-em2",
+    "description": "Full-colour ribbon for EM2 printers\nPrints photos, logos, and text\nSuitable for standard PVC ID cards\nReliable output for daily use",
+    "category": "Colour"
+  },
+  {
+    "name": "Datacard SP30 Half Ribbon",
+    "slug": "dc-sp30",
+    "description": "Half-panel colour ribbon\nOptimised for cards with limited colour area\nReduces ribbon consumption\nCompatible with Datacard SP30",
+    "category": "Colour"
+  },
+  {
+    "name": "Datacard SP30 Full Ribbon",
+    "slug": "dc-sp30-f",
+    "description": "Full-panel colour ribbon\nIdeal for photo ID cards\nConsistent colour quality\nDesigned for SP30 printers",
+    "category": "Colour"
+  },
+  {
+    "name": "Fargo DTC 1250E Half Ribbon",
+    "slug": "1250e",
+    "description": "Half-panel colour ribbon\nCost-effective card printing\nSuitable for text-heavy cards\nCompatible with Fargo DTC 1250E",
+    "category": "Colour"
+  },
+  {
+    "name": "Fargo DTC 1250E Full Ribbon",
+    "slug": "1250e-f",
+    "description": "Full-colour ribbon\nProduces clear images and graphics\nUsed for professional ID cards\nDesigned for DTC 1250E printers",
+    "category": "Colour"
+  },
+  {
+    "name": "Fargo DTC 1500 Half Ribbon",
+    "slug": "1500-h",
+    "description": "Partial-colour ribbon\nOptimised for lower print costs\nIdeal for basic ID layouts\nCompatible with DTC 1500",
+    "category": "Colour"
+  },
+  {
+    "name": "Fargo DTC 1500 Full Ribbon",
+    "slug": "1500-f",
+    "description": "Full-panel colour printing\nSharp photo and text output\nSuitable for corporate and campus IDs\nDesigned for Fargo DTC 1500",
+    "category": "Colour"
+  },
+  {
+    "name": "Fargo DTC 4500E Half Ribbon",
+    "slug": "4500-h",
+    "description": "Half-panel colour ribbon\nEfficient for selective colour printing\nReduces per-card cost\nCompatible with DTC 4500E",
+    "category": "Colour"
+  },
+  {
+    "name": "Fargo DTC 4500E Full Ribbon",
+    "slug": "4500-f",
+    "description": "Full-colour ribbon\nHigh-quality, consistent prints\nUsed for professional card issuance\nDesigned for DTC 4500E printers",
+    "category": "Colour"
+  },
+  {
+    "name": "Evolis Primacy 1 Full Ribbon",
+    "slug": "primacy-1",
+    "description": "Full-panel colour ribbon\nProduces vibrant card prints\nSuitable for medium to high volume\nCompatible with Evolis Primacy",
+    "category": "Colour"
+  },
+  {
+    "name": "Evolis Primacy 2 Full Ribbon",
+    "slug": "primacy-2",
+    "description": "Full-colour ribbon for Primacy 2\nOptimised for faster print speeds\nDelivers sharp, consistent output\nIdeal for bulk card printing",
+    "category": "Colour"
+  },
+  {
+    "name": "Evolis Primacy 1 Half Ribbon",
+    "slug": "primacy-1-h",
+    "description": "Half-panel colour ribbon\nDesigned for economical printing\nIdeal for cards with small colour areas\nCompatible with Primacy printers",
+    "category": "Colour"
+  },
+  {
+    "name": "Evolis Primacy 2 Half Ribbon",
+    "slug": "primacy-2-h",
+    "description": "Cost-saving half-panel ribbon\nSupports selective colour designs\nMaintains print clarity\nDesigned for Primacy 2",
+    "category": "Colour"
+  },
+  {
+    "name": "IDP Smart YMCKO Ribbon",
+    "slug": "ymcko-idp",
+    "description": "Full-colour ribbon with overlay panel\nProtects printed surface\nSuitable for ID and access cards\nCompatible with IDP Smart printers",
+    "category": "Colour"
+  },
+  {
+    "name": "IDP Smart Ribbon Kit",
+    "slug": "idp-kit",
+    "description": "Full-colour ribbon with overlay panel\nProtects printed surface\nSuitable for ID and access cards\nCompatible with IDP Smart printers",
+    "category": "Colour"
+  },
+  {
+    "name": "IDP Solid 510 & 310 Full Ribbon",
+    "slug": "510-310-f",
+    "description": "Full-colour ribbon\nPrints photos, text, and logos\nSuitable for professional ID cards\nCompatible with Solid 510 & 310",
+    "category": "Colour"
+  },
+  {
+    "name": "IDP Solid 310 & 510 Half Ribbon",
+    "slug": "510-310-h",
+    "description": "Half-panel colour ribbon\nCost-effective for simple designs\nIdeal for low colour coverage cards\nDesigned for Solid 310 & 510",
+    "category": "Colour"
+  },
+  {
+    "name": "Zebra ZXP3 Full Ribbon",
+    "slug": "zxp3-f",
+    "description": "Full-colour printing ribbon\nProduces clean, sharp card output\nSuitable for standard ID cards\nCompatible with Zebra ZXP3",
+    "category": "Colour"
+  },
+  {
+    "name": "Zebra ZXP3 Half Ribbon",
+    "slug": "zxp3-h",
+    "description": "Half-panel colour ribbon\nReduces ribbon usage\nBest for text-based cards\nDesigned for ZXP3 printers",
+    "category": "Colour"
+  },
+  {
+    "name": "Zebra ZC300 Full Ribbon",
+    "slug": "zc300-f",
+    "description": "Full-colour ribbon\nSupports high-quality card designs\nSmooth and reliable printing\nCompatible with Zebra ZC300",
+    "category": "Colour"
+  },
+  {
+    "name": "Zebra ZC300 Half Ribbon",
+    "slug": "zc300-h",
+    "description": "Half-panel colour ribbon\nOptimised for cost efficiency\nSuitable for basic card layouts\nDesigned for ZC300 printers",
+    "category": "Colour"
+  },
+  {
+    "name": "Zebra ZC300 Colour Ribbon 659366 (250 prints)",
+    "slug": "zc300-colour",
+    "description": "Genuine Zebra colour ribbon\nYields up to 250 prints\nEnsures consistent print quality\nDesigned for ZC300 series",
+    "category": "Colour"
+  },
+  {
+    "name": "Magicard Full Ribbon",
+    "slug": "magic",
+    "description": "Full-colour ribbon\nSuitable for photo and graphic printing\nDelivers reliable colour output\nCompatible with Magicard printers",
+    "category": "Colour"
+  },
+  {
+    "name": "Magicard Half Ribbon",
+    "slug": "magic-h",
+    "description": "Half-panel colour ribbon\nCost-effective printing option\nIdeal for simple card designs\nDesigned for Magicard printers",
+    "category": "Colour"
+  },
+  {
+    "name": "Fargo HDP Color Ribbon",
+    "slug": "hdp-colour",
+    "description": "Full-colour ribbon for retransfer printing\nProduces high-definition images\nUsed with HDP series printers\nWorks with retransfer film",
+    "category": "Colour"
+  },
+  {
+    "name": "Fargo HDP Color Ribbon YMCFK",
+    "slug": "ymcfk-hdp",
+    "description": "Advanced colour ribbon with fluorescing panel\nAdds visual security features\nUsed for high-security cards\nCompatible with Fargo HDP printers",
+    "category": "Colour"
+  },
+  {
+    "name": "Fargo HDP YMCKK Ribbon",
+    "slug": "ymckk-hdp",
+    "description": "Colour ribbon with dual black panels\nSupports colour front and black back printing\nSuitable for detailed text and barcodes\nDesigned for Fargo HDP series",
+    "category": "Monochrome"
+  },
+  {
+    "name": "Fargo HDP Retransfer Film",
+    "slug": "hdp-film",
+    "description": "Transfer film for edge-to-edge printing\nProtects printed card surface\nUsed in retransfer printing process\nCompatible with Fargo HDP printers",
+    "category": "Lamination / Retransfer Film"
+  },
+  {
+    "name": "Entrust Datacard DS3 Ribbon",
+    "slug": "ds3",
+    "description": "Retransfer ribbon for high-end printing\nProduces edge-to-edge card output\nSuitable for secure ID applications\nDesigned for Entrust DS3 printers",
+    "category": "Lamination / Retransfer Film"
+  }
+]

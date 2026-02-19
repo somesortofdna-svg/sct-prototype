@@ -1,0 +1,207 @@
+/* GLOBAL */
+.access-page {
+  background: linear-gradient(180deg, #0b1c2e, #0f2438);
+  color: #ffffff;
+  padding-top: 90px;
+  font-family: "Inter", Arial, sans-serif;
+}
+
+/* LAYOUT */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 64px;
+}
+
+/* REVEAL (SUBTLE) */
+.reveal {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: 0.5s ease;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+
+.hero-lead {
+  font-size: 20px;
+  line-height: 1.6;
+  color: #e2e8f0;
+  max-width: 720px;
+}
+
+.hero-sub {
+  margin-top: 16px;
+  color: #b8c7d9;
+  max-width: 680px;
+}
+
+/* CENTER ONLY INTRO CONTENT IN HERO */
+.access-hero .container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.access-hero .hero-lead,
+.access-hero .hero-sub {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* CAROUSEL */
+.carousel-container {
+  position: relative;
+  margin-top: 48px;
+  display: flex;
+  align-items: center;
+}
+
+.product-carousel {
+  display: flex;
+  gap: 20px;
+  overflow: hidden;
+  width: 100%;
+}
+
+.carousel-arrow {
+  background: rgba(255,255,255,0.06);
+  border: 1px solid rgba(255,255,255,0.1);
+  color: white;
+  font-size: 24px;
+  padding: 10px 14px;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.2s ease;
+}
+
+.carousel-arrow:hover {
+  background: rgba(255,255,255,0.14);
+}
+
+.product-card {
+  min-width: 220px;
+  background: rgba(255,255,255,0.04);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 14px;
+  padding: 16px;
+  text-align: left;
+  text-decoration: none;
+  color: #fff;
+  transition: 0.25s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  border-color: rgba(77, 181, 255, 0.6);
+}
+
+.product-image {
+  height: 140px;
+  background: #ffffff;
+  border-radius: 10px;
+  margin-bottom: 12px;
+}
+
+/* SECTIONS */
+.access-section {
+  padding: 96px 0;
+}
+
+.access-section.alt {
+  background: rgba(255,255,255,0.02);
+}
+
+.access-section h2 {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 14px;
+  letter-spacing: -0.015em;
+}
+
+.section-lead {
+  font-size: 17px;
+  line-height: 1.6;
+  color: #cbd5e1;
+  max-width: 520px;
+}
+
+/* FEATURE GRID (REPLACES PPT BULLETS) */
+.feature-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 14px;
+}
+
+.feature-grid span {
+  padding-left: 16px;
+  border-left: 3px solid #4db5ff;
+  color: #e5eef7;
+  line-height: 1.5;
+}
+
+/* WIDE GRID */
+.feature-grid.wide {
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+/* EMPHASIS */
+.access-section.emphasis {
+  background: linear-gradient(180deg, #0b1c2e, #0a1a2f);
+}
+
+/* CTA */
+.access-cta {
+  padding: 120px 0;
+  background: linear-gradient(180deg, #0a1a2f, #081423);
+}
+
+.access-cta h2 {
+  font-size: 32px;
+  margin-bottom: 14px;
+}
+
+.access-cta p {
+  color: #cbd5e1;
+  max-width: 520px;
+  margin-bottom: 32px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contact-btn {
+  background: #4db5ff;
+  padding: 14px 32px;
+  color: #081423;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: 0.25s ease;
+}
+
+.contact-btn:hover {
+  background: #ffffff;
+  transform: translateY(-2px);
+}
+
+/* CENTER CTA CONTENT */
+.access-cta .container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+

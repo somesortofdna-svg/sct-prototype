@@ -1,0 +1,128 @@
+[
+  {
+    "name": "Entrust DS3",
+    "slug": "entrust-ds3",
+    "description": "A modern, compact ID card printer designed for secure and professional card issuance. Ideal for organisations that need reliable printing with a clean finish and optional encoding features.",
+    "category": "retransfer"
+  },
+  {
+    "name": "Entrust DataCard EM2",
+    "slug": "entrust-datacard-em2",
+    "description": "A dependable desktop ID card printer for everyday card printing needs. Known for consistent quality, easy operation, and suitability for corporate IDs, student cards, and memberships.",
+    "category": "desktop"
+  },
+  {
+    "name": "Entrust With Laminator",
+    "slug": "entrust-with-laminator",
+    "description": "A printer configuration that includes a lamination module to add an extra protective layer to cards. Used where durability and security are critical, such as government or enterprise IDs.",
+    "category": "retransfer"
+  },
+  {
+    "name": "Evolis Primacy",
+    "slug": "evolis-primacy",
+    "description": "A fast and versatile desktop card printer built for medium to high-volume printing. Popular for sharp print quality and smooth performance in corporate and institutional environments.",
+    "category": "desktop"
+  },
+  {
+    "name": "Evolis Primacy 2",
+    "slug": "evolis-primacy-2",
+    "description": "An upgraded version of the Primacy with improved speed, durability, and security options. Suitable for organizations that need reliable, high-output card production.",
+    "category": "desktop"
+  },
+  {
+    "name": "Fargo DTC 1250E",
+    "slug": "fargo-dtc-1250e",
+    "description": "An entry-level desktop ID card printer designed for basic card issuance. Compact, affordable, and ideal for small offices or low-volume requirements.",
+    "category": "desktop"
+  },
+  {
+    "name": "Fargo DTC 1500",
+    "slug": "fargo-dtc-1500",
+    "description": "A robust desktop card printer offering better durability and print quality than entry-level models. Commonly used for employee IDs, access cards, and student badges.",
+    "category": "desktop"
+  },
+  {
+    "name": "Fargo DTC 4500E",
+    "slug": "fargo-dtc-4500e",
+    "description": "A higher-end direct-to-card printer built for consistent performance and advanced card personalization. Suitable for medium-scale professional ID programs.",
+    "category": "desktop"
+  },
+  {
+    "name": "Fargo HDP 5000",
+    "slug": "fargo-hdp-5000",
+    "description": "A retransfer card printer that delivers edge-to-edge, high-definition printing. Ideal for smart cards, chip cards, and applications requiring premium print quality.",
+    "category": "retransfer"
+  },
+  {
+    "name": "Fargo HDP 6600",
+    "slug": "fargo-hdp-6600",
+    "description": "An advanced retransfer printer designed for high-volume and industrial-grade card issuance. Used by large enterprises and government projects requiring speed and precision.",
+    "category": "retransfer"
+  },
+  {
+    "name": "IDP Solid 510D",
+    "slug": "idp-solid-510d",
+    "description": "A reliable desktop ID card printer offering good print quality and stable performance. Well-suited for offices, schools, and access control applications.",
+    "category": "desktop"
+  },
+  {
+    "name": "Smart 51",
+    "slug": "smart-51",
+    "description": "A mid-range desktop card printer balancing speed, quality, and affordability. Commonly used for corporate IDs, loyalty cards, and institutional badges.",
+    "category": "desktop"
+  },
+  {
+    "name": "Solid310D",
+    "slug": "solid310d",
+    "description": "An entry-level desktop card printer designed for simple and cost-effective card printing. Best for small businesses and basic ID requirements.",
+    "category": "desktop"
+  },
+  {
+    "name": "Smart 31",
+    "slug": "smart-31",
+    "description": "A budget-friendly desktop card printer for low-volume card printing. Ideal for startups, small offices, and basic PVC card needs.",
+    "category": "desktop"
+  },
+  {
+    "name": "Magicard Enduro 3E",
+    "slug": "magicard-enduro-3e",
+    "description": "A compact and economical card printer designed for simple ID and membership cards. Known for ease of use and suitability for small organizations.",
+    "category": "retransfer"
+  },
+  {
+    "name": "Zebra ZC300",
+    "slug": "zebra-zc300",
+    "description": "A modern, user-friendly card printer with a sleek design and quick setup. Commonly used for event badges, membership cards, and office ID cards.",
+    "category": "card"
+  },
+  {
+    "name": "Zebra ZXP3",
+    "slug": "zebra-zxp3",
+    "description": "A reliable entry-level card printer focused on straightforward card issuance. Suitable for small to medium card printing environments.",
+    "category": "card"
+  },
+  {
+    "name": "DataCard CD800",
+    "slug": "datacard-cd800",
+    "description": "A durable desktop card printer built for secure and consistent card production. Often used in enterprise and government ID applications.",
+    "category": "card"
+  },
+  {
+    "name": "DataCard SD360",
+    "slug": "datacard-sd360",
+    "description": "A dependable card printer designed for professional ID card issuance. Known for stable performance and good print output in office environments.",
+    "category": "card"
+  },
+  {
+    "name": "DataCard SP30",
+    "slug": "datacard-sp30",
+    "description": "A straightforward direct-to-card printer for everyday PVC card printing. Ideal for basic ID cards, memberships, and low-to-medium volume usage.",
+    "category": "card"
+  },
+  {
+    "name": "Epson Printer",
+    "slug": "epson",
+    "description": "Reliable and high-performance Epson printer suitable for office and professional printing applications with consistent output quality.",
+    "category": "others"
+  }
+]

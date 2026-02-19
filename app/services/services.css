@@ -1,0 +1,168 @@
+.video-bg-wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 100vh; /* or your section height */
+  overflow: hidden;
+}
+
+.video-bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+/* Optional dark overlay for readability */
+.video-bg-wrapper::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(10, 26, 47, 0.6); /* matches your navy theme */
+  z-index: 2;
+}
+
+
+.services-panels {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  padding: 40px 10%;
+  margin-top: 80px; /* prevents overlap with navbar */
+}
+
+.panel {
+  width: 420px; /* equal size for both panels */
+  background: rgba(4, 60, 116, 0.06);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.panel-title {
+  font-size: 26px;
+  font-weight: 600;
+  color: white;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.section-card {
+  width: 100%;
+  padding: 14px 18px;
+  background: rgba(5, 57, 109, 0.8);
+  border-radius: 50px;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+  margin-bottom: 14px;
+  transition: 0.2s ease;
+}
+
+.section-card:hover {
+  transform: scale(1.03);
+}
+
+/* VIEW MORE (text link style) */
+.view-more {
+  font-size: 18px;
+  color: #4db5ff;
+  text-align: center;
+  text-decoration: underline;
+  cursor: pointer;
+  margin-top: 6px;
+  transition: 0.2s;
+}
+
+.view-more:hover {
+  color: white;
+  transform: scale(1.05);
+}
+
+/* ACCORDION DROPDOWN AREA */
+.accordion {
+  margin-top: 6px;
+  padding: 12px 8px;
+  background: rgba(16, 54, 110, 0.04);
+  border-radius: 12px;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.accordion-item {
+  font-size: 17px;
+  font-weight: 500;
+  color: #b8e1ff;
+  text-align: center;
+  padding: 10px 0;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.accordion-item:hover {
+  color: white;
+  transform: translateX(4px);
+}
+
+/* SPEC LIST UNDER EACH SOLUTION */
+.spec-list {
+  background: rgba(11, 70, 128, 0.6);
+  border-radius: 10px;
+  padding: 10px 14px;
+  margin: 6px 10%;
+  animation: fadeIn 0.3s ease;
+}
+
+.spec-item {
+  font-size: 15px;
+  color: white;
+  text-align: center;
+  margin: 6px 0;
+  opacity: 0.85;
+}
+
+/* CTA TO CONTACT */
+.contact-cta {
+  display: block;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 600;
+  color: #4db5ff;
+  margin-top: 18px;
+  text-decoration: underline;
+  transition: 0.2s;
+}
+
+.contact-cta:hover {
+  color: white;
+  transform: scale(1.04);
+}
+.view-more {
+  user-select: none;
+}
+
+/* Make Link behave exactly like accordion <p> */
+.accordion-item {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+/* Optional hover polish */
+.accordion-item:hover {
+  opacity: 0.85;
+}

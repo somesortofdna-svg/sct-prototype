@@ -1,0 +1,132 @@
+.iso-wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+/* Background Video */
+.iso-bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+/* Main Content */
+.iso-content {
+  position: relative;
+  z-index: 2;
+  padding: 140px 8% 80px;
+  text-align: center;
+  color: #003153;
+}
+
+.iso-content h1 {
+  font-size: 56px;
+  margin-bottom: 10px;
+  color: #b5cbce;
+  text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+
+.iso-subtitle {
+  font-size: 22px;
+  color: white;
+  margin-bottom: 40px;
+}
+
+/* Card Layout */
+.iso-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(12px);
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.2);
+  flex-wrap: wrap;
+  max-width: 1100px;
+  margin: auto;
+  text-align: left;
+  color: white;
+}
+
+.iso-image {
+  width: 420px;
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.25);
+}
+
+.iso-text {
+  flex: 1;
+  min-width: 320px;
+}
+
+.iso-text h2 {
+  font-size: 36px;
+  margin-bottom: 14px;
+  color: #6fb4d2;
+}
+
+.iso-text p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+/* Bullet Points */
+.iso-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 26px;
+}
+
+.iso-list li {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Download Button */
+.iso-download-btn {
+  display: inline-block;
+  padding: 12px 22px;
+  background: #6fb4d2;
+  color: white;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s ease;
+}
+
+.iso-download-btn:hover {
+  background: #4556a0;
+  transform: translateY(-2px);
+}
+
+/* Responsive for mobile */
+@media (max-width: 768px) {
+  .iso-content h1 {
+    font-size: 42px;
+  }
+
+  .iso-card {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .iso-text {
+    text-align: left;
+  }
+
+  .iso-image {
+    width: 100%;
+    max-width: 360px;
+  }
+}

@@ -1,0 +1,44 @@
+
+
+/* CTA Section */
+
+.about-cta {
+  margin-top: 8px;
+  text-align: center;
+}
+
+.clients-link {
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.clients-image {
+  width: 100%;
+  max-width: 2000px;
+  border-radius: 16px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.clients-image:hover {
+  transform: scale(1.03);
+  box-shadow: 0 30px 80px rgba(0, 0, 0, 0.7);
+}
+
+/* Join Us Text */
+
+.join-link {
+  display: block;
+  margin-top: 50px;
+  font-size: clamp(30px, 5vw, 48px);
+  font-weight: 700;
+  text-decoration: none;
+  color: #ffffff;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.join-link:hover {
+  transform: translateY(-3px);
+  color: #a1abc0;
+}

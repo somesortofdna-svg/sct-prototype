@@ -1,0 +1,92 @@
+[
+  {
+    "name": "ACR39U-N1MSR",
+    "slug": "acr39u-n1msr",
+    "description": "A compact USB smart card reader with magnetic stripe support, suitable for authentication and secure access applications.",
+    "category": "usb"
+  },
+  {
+    "name": "ACR39U Smart Card Reader",
+    "slug": "acr39u-smart-card-reader",
+    "description": "A reliable USB smart card reader designed for secure login, digital signatures, and identity verification.",
+    "category": "usb"
+  },
+  {
+    "name": "ACR39U L1",
+    "slug": "acr39u-l1",
+    "description": "An entry-level USB smart card reader for basic smart card authentication and desktop use.",
+    "category": "usb"
+  },
+  {
+    "name": "LF USB Reader",
+    "slug": "lf-usb-reader",
+    "description": "A low-frequency USB reader commonly used for basic proximity and access control systems.",
+    "category": "usb"
+  },
+  {
+    "name": "RFID ACR1281U-C1",
+    "slug": "rfid-acr1281u-c1",
+    "description": "A contactless RFID and NFC reader supporting secure transactions and access control applications.",
+    "category": "contactless"
+  },
+  {
+    "name": "NFC Reader",
+    "slug": "nfc-reader",
+    "description": "A contactless reader compatible with NFC cards and smartphones for tap-and-go interactions.",
+    "category": "contactless"
+  },
+  {
+    "name": "UHF Reader 6 Meter Range",
+    "slug": "uhf-reader-6-meter-range",
+    "description": "A long-range UHF RFID reader designed for vehicle access, asset tracking, and logistics systems.",
+    "category": "contactless"
+  },
+  {
+    "name": "BT UHF Reader",
+    "slug": "bt-uhf-reader",
+    "description": "A Bluetooth-enabled UHF reader for wireless RFID reading in mobile and handheld applications.",
+    "category": "contactless"
+  },
+  {
+    "name": "Proximity Mantra URF 001",
+    "slug": "proximity-mantra-urf-001",
+    "description": "A desktop biometric and proximity reader used for secure access and attendance systems.",
+    "category": "desktop"
+  },
+  {
+    "name": "Printer Head",
+    "slug": "head",
+    "description": "High-precision replacement print head designed to restore optimal print quality and ensure sharp, consistent ID card printing performance.",
+    "category": "consumables"
+  },
+  {
+    "name": "Evolis Cleaing Kit",
+    "slug": "evolis",
+    "description": "Official cleaning kit for Evolis card printers, designed to maintain print quality, extend printer life, and prevent dust-related issues.",
+    "category": "consumables"
+  },
+  {
+    "name": "Fargo Cleaning Kit",
+    "slug": "fargo",
+    "description": "Genuine Fargo cleaning kit that ensures reliable printer performance by removing debris and maintaining consistent print output.",
+    "category": "consumables"
+  },
+  {
+    "name": "Zebra Cleaning Kit",
+    "slug": "zebra",
+    "description": "Professional-grade cleaning kit for Zebra card printers, helping maintain peak performance and prolonging equipment lifespan.",
+    "category": "consumables"
+  },
+  {
+    "name": "IDP Solid Cleaning Kit",
+    "slug": "idp",
+    "description": "Specialized cleaning kit for IDP Solid printers, ensuring smooth operation and high-quality card printing results.",
+    "category": "consumables"
+  },
+  {
+    "name": "Printer Cleaning Pen",
+    "slug": "printer",
+    "description": "Easy-to-use cleaning pen for maintaining print heads and removing dust or residue to preserve print clarity.",
+    "category": "consumables"
+  }
+]

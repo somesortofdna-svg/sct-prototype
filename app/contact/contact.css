@@ -1,0 +1,245 @@
+/* SECTION */
+.contact-section {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  justify-content: center;
+  padding: 96px 24px;
+  box-sizing: border-box;
+  display:flex;
+  justify-content: center;
+}
+
+/* VIDEO */
+.contact-video {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 0;
+}
+
+/* OVERLAY */
+.contact-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(10, 15, 20, 0.65);
+  z-index: 1;
+}
+
+/* GLASS CONTAINER */
+.contact-container {
+  position: relative;
+  z-index: 2;
+
+  width: 100%;
+  max-width: 960px; /* 🔽 smaller glass box */
+  max-height: 96vh;
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr; /* 🔽 form slightly smaller */
+  gap: 32px;
+
+  padding: 32px 36px; /* 🔽 tighter padding */
+  box-sizing: border-box;
+
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+
+  border-radius: 18px;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+
+/* LEFT */
+.contact-info h2 {
+  font-size: 25px;
+  margin-bottom: 12px;
+  color: #e5e7eb;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+.contact-description {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #d1d5db;
+  margin-bottom: 24px;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+.contact-block {
+  margin-bottom: 18px;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+
+.contact-block h4 {
+  font-size: 18px;
+  margin: 0 0 3px 0;
+  font-weight: 500;
+  color: #f3f4f6;
+}
+
+.contact-block p {
+  font-size: 15px;
+  color: #cbd5e1;
+  margin: 4px 0;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
+.contact-info {
+  min-width: 0;
+}
+.contact-form {
+  min-width: 0;
+}
+
+/* RIGHT */
+.contact-form {
+  max-height: calc(85vh - 65px); /* subtract padding */
+  overflow-y: auto;
+  padding-right: 6px;
+  display: flex;
+  flex-direction: column;
+}
+.contact-form::-webkit-scrollbar {
+  width: 4px;
+}
+
+.contact-form::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+}
+
+.contact-form-inner {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+
+
+.contact-form h2 {
+  font-size: 25px;
+  margin-bottom: 24px;
+  color: #e5e7eb;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 14px;
+}
+
+.form-group label {
+  font-size: 14px;
+  margin-bottom: 6px;
+  color: #e5e7eb;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.1);
+  color: #f9fafb;
+  font-size: 13px;
+  outline: none;
+}
+.form-group textarea {
+  resize: none;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #60a5fa;
+}
+
+
+
+/* Submit button */
+.submit-btn {
+  align-self: flex-end;
+  margin-top: 12px;
+
+  padding: 8px 18px;
+  font-size: 13px;
+  border-radius: 999px;
+
+  background: rgba(96, 165, 250, 0.9);
+  color: #0b1220;
+  border: none;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background: rgba(96, 165, 250, 1);
+}
+/* SUCCESS TOAST */
+
+.success-toast {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
+  background: #111;
+  color: #fff;
+  padding: 14px 22px;
+  border-radius: 8px;
+  border: 1px solid #333;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  animation: slideIn 0.4s ease, fadeOut 0.4s ease 2.6s forwards;
+  z-index: 9999;
+}
+
+.success-check {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #1e7f38;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+/* Animations */
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+}
+
+
+/* MOBILE */
+@media (max-width: 900px) {
+  .contact-container {
+    grid-template-columns: 1fr;
+    max-width: 520px; /* 🔽 prevents tablet bloat */
+    padding: 28px 22px;
+  }
+}
+
