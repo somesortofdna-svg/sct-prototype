@@ -2,7 +2,7 @@
   background-color: #000;
   color: #fff;
   min-height: 100vh;
-  padding: 100px 140px;
+  padding: clamp(60px, 8vw, 100px) clamp(20px, 6vw, 140px);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
   display: flex;
   flex-direction: column;
@@ -25,7 +25,7 @@
 }
 
 .printerTitle {
-  font-size: 42px;
+  font-size: clamp(28px, 4vw, 42px);
   font-weight: 600;
   letter-spacing: -0.5px;
   margin-bottom: 28px;
@@ -65,8 +65,8 @@
 /* ================= RIGHT IMAGE BOX ================= */
 
 .printerImageBox {
-  width: 420px;
-  height: 420px;
+  width: clamp(260px, 40vw, 420px);
+  height: clamp(260px, 40vw, 420px);
   background-color: #1a1a1a;
   border-radius: 28px;
   display: flex;
@@ -129,4 +129,70 @@
 
 .printerBtn:hover .btnArrow {
   transform: translateX(4px);
+}
+@media (max-width: 1024px) {
+  .printerContent {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 60px;
+  }
+  .printerLeft {
+    max-width: 100%;
+  }
+
+  .printerImageBox {
+    align-self: center;
+  }
+}
+
+@media (max-width: 640px) {
+  .printerButtons {
+    flex-direction: column;
+    gap: 14px;
+    margin-top: 60px;
+  }
+
+  .printerBtn {
+    width: 100%;
+    padding: 14px 18px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .printerPage {
+    padding: 50px 16px;
+  }
+
+  .printerContent {
+    gap: 40px;
+  }
+
+  .printerDescription {
+    font-size: 15px;
+  }
+
+  .printerPoints {
+    font-size: 14px;
+  }
+}
+@media (hover: none) {
+  .printerImageBox:hover {
+    transform: none;
+    box-shadow: none;
+  }
+
+  .printerImageBox:hover img {
+    transform: none;
+  }
+
+  .printerBtn:hover {
+    transform: none;
+    background-color: transparent;
+    border-color: #555;
+  }
+
+  .printerBtn:hover .btnArrow {
+    transform: none;
+  }
 }

@@ -1,5 +1,38 @@
 import Link from "next/link";
 import "./about.css";
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: {
+    default: 'About Us | Smart Chip Tree',
+    template: '%s | Smart Chip Tree',
+  },
+  description:
+    'Learn about Smart Chip Tree, your trusted provider of smart card solutions, access control, and innovative digital security services.',
+  keywords: [
+    'smart card solutions', 
+    'access control', 
+    'digital security', 
+    'company overview', 
+    'Smart Chip Tree'
+  ],
+  authors: [{ name: 'Smart Chip Tree' }],
+  openGraph: {
+    title: 'About Smart Chip Tree',
+    description:
+      'Discover Smart Chip Tree’s mission, expertise, and innovative solutions in smart cards, access control, and secure digital services.',
+    type: 'website',
+    locale: 'en_IN',
+    siteName: 'Smart Chip Tree',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'About Smart Chip Tree',
+    description:
+      'Explore Smart Chip Tree: leading provider of smart card solutions, access control, and innovative digital security services.',
+  },
+};
+
 export default function AboutPage() {
   return (
     <main className="about-page">

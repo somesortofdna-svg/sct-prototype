@@ -5,6 +5,39 @@ import Navbar from "@/app/components/Navbar";
 import Head from "next/head";
 import Link from "next/link";
 import "./biometric.css";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Biometric Solutions in India | Smart Chip Tree",
+  description:
+    "Advanced biometric authentication solutions in India with cloud connectivity, secure identity verification, and seamless access control for modern organizations.",
+
+  openGraph: {
+    title: "Biometric Solutions in India | Smart Chip Tree",
+    description:
+      "Cloud-enabled biometric systems for secure identification, attendance, and access control across Indian enterprises.",
+    url: "https://www.domain.com/biometric",
+    siteName: "Smart Chip Tree",
+    locale: "en_IN",
+    type: "website",
+    images: [
+      {
+        url: "/media/biometric-preview.jpg", // update if needed
+        width: 1200,
+        height: 630,
+        alt: "Biometric Solutions by Smart Chip Tree",
+      },
+    ],
+  },
+
+  twitter: {
+    card: "summary_large_image",
+    title: "Biometric Solutions in India | Smart Chip Tree",
+    description:
+      "Cloud-connected biometric authentication for secure and scalable identity management in India.",
+    images: ["/media/biometric-preview.jpg"], // update if needed
+  },
+};
 
 export default function BiometricsPage() {
 

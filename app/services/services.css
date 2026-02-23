@@ -122,7 +122,7 @@
   background: rgba(11, 70, 128, 0.6);
   border-radius: 10px;
   padding: 10px 14px;
-  margin: 6px 10%;
+  margin: 6px clamp(8px, 4vw, 10%);
   animation: fadeIn 0.3s ease;
 }
 
@@ -165,4 +165,80 @@
 /* Optional hover polish */
 .accordion-item:hover {
   opacity: 0.85;
+}
+@media (max-width: 1024px) {
+  .services-panels {
+    flex-direction: column;
+    align-items: center;
+    gap: 32px;
+    padding: 32px 6%;
+  }
+
+  .panel {
+    width: min(520px, 100%);
+  }
+}
+@media (max-width: 640px) {
+  .services-panels {
+    margin-top: 60px;
+    padding: 24px 20px;
+    gap: 24px;
+  }
+
+  .panel {
+    padding: 20px 16px;
+    border-radius: 14px;
+  }
+
+  .panel-title {
+    font-size: 22px;
+  }
+  .section-card {
+    font-size: 16px;
+    padding: 12px 14px;
+  }
+
+  .accordion-item {
+    font-size: 16px;
+  }
+
+  .spec-item {
+    font-size: 14px;
+  }
+}
+@media (max-width: 768px) {
+  .video-bg {
+    object-position: center;
+  }
+}
+@media (hover: none) {
+  .section-card:hover {
+    transform: none;
+  }
+
+  .view-more:hover {
+    transform: none;
+    color: #4db5ff;
+  }
+
+  .accordion-item:hover {
+    transform: none;
+    opacity: 1;
+    color: #b8e1ff;
+  }
+
+  .contact-cta:hover {
+    transform: none;
+    color: #4db5ff;
+  }
+}
+@media (max-width: 480px) {
+  .panel-title {
+    font-size: 20px;
+  }
+
+  .section-card {
+    font-size: 15px;
+    border-radius: 40px;
+  }
 }

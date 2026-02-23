@@ -1,9 +1,26 @@
 'use client';
-
 import React, { useState } from 'react';
 import Link from 'next/link';
 import './services.css';
 
+<head>
+        <title>Our Services | Smart Chip Tree</title>
+        <meta
+          name="description"
+          content="Explore our global services: Banking & Finance, Education, Enterprise, Government, Healthcare, Hospitality, Manufacturing & Logistics, Travel & Transportation, Event Management, and Cloud-based solutions."
+        />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        {/* Open Graph */}
+        <meta property="og:title" content="Our Services | Smart Chip Tree" />
+        <meta property="og:description" content="Cloud-enabled smart card and access control solutions for multiple industries." />
+        <meta property="og:type" content="website" />
+
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Our Services | Smart Chip Tree" />
+        <meta name="twitter:description" content="Cloud-enabled smart card and access control solutions for multiple industries." />
+</head>
 
 
 

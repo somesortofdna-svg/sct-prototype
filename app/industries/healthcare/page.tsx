@@ -2,12 +2,46 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Healthcare ID & Hospital Access Solutions | Smart Chip Tree",
+  description:
+    "Smart healthcare identity, patient card systems, and secure hospital access control solutions for modern medical environments worldwide.",
+  keywords: [
+    "hospital ID cards",
+    "healthcare access control",
+    "patient smart cards",
+    "medical staff ID system",
+    "hospital security solutions",
+    "Smart Chip Tree healthcare",
+  ],
+  openGraph: {
+    title: "Healthcare Identity & Access Solutions | Smart Chip Tree",
+    description:
+      "Secure patient identification, staff credentials, and hospital access systems.",
+    url: "https://www.smartchiptree.com/solutions/healthcare",
+    siteName: "Smart Chip Tree",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Healthcare Smart ID Solutions | Smart Chip Tree",
+    description:
+      "Patient cards, staff IDs, and secure hospital access control.",
+  },
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+};
 
 const HealthcareSolutions: React.FC = () => {
   return (
     <div className="bg-[#0A1A2F] text-white">
       {/* Hero Section */}
-      <section className="relative h-[440px] flex items-center justify-center text-center px-6">
+      <section className="relative min-h-[440px] md:h-[440px] flex items-center justify-center text-center px-6">
         <Image
           src="/media/healthcare-hero.jpg"
           alt="Healthcare Identity & Access Solutions"
@@ -18,10 +52,10 @@ const HealthcareSolutions: React.FC = () => {
         <div className="absolute inset-0 bg-[#0A1A2F]/65" />
 
         <div className="relative z-10 max-w-4xl">
-          <h1 className="text-4xl font-bold mb-4">
+          <h1 className="text-3xl md:text-4xl font-bold mb-4">
             Healthcare Identity & Access Solutions
           </h1>
-          <p className="text-lg text-gray-200">
+          <p className="text-base md:text-lg text-gray-200">
             Secure patient identification, staff credentials, and controlled
             access systems designed for modern healthcare environments.
           </p>
@@ -134,7 +168,7 @@ const HealthcareSolutions: React.FC = () => {
           hospital or healthcare network.
         </p>
         <Link href="/contact">
-          <button className="bg-[#F97316] hover:bg-[#EA580C] transition text-white font-bold py-3 px-6 rounded">
+          <button className="bg-[#F97316] hover:bg-[#EA580C] transition text-white font-bold py-3.5 px-6 rounded">
             Contact Us
           </button>
         </Link>

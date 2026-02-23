@@ -1,6 +1,42 @@
 import Link from "next/link";
 import printers from "./printers.json";
 import "./printers.css";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "ID Card Printers in India | Entrust, Zebra, Fargo Card Printers | Smart Chip Tree",
+  description:
+    "Explore direct-to-card and retransfer ID card printers from leading brands like Entrust, Zebra, Fargo and more. Smart Chip Tree supplies reliable, high-quality card printing solutions across India.",
+  keywords: [
+    "ID card printers India",
+    "Entrust card printers",
+    "Zebra card printers India",
+    "Fargo ID card printers",
+    "direct to card printers India",
+    "retransfer card printers India",
+    "plastic card printer suppliers India",
+    "Smart Chip Tree printers",
+  ],
+  openGraph: {
+    title: "ID Card Printers in India | Entrust, Zebra, Fargo | Smart Chip Tree",
+    description:
+      "Shop professional direct-to-card and retransfer ID card printers from top global brands. Trusted supply across India.",
+    url: "https://www.smartchiptree.com/products/card-printers", // update if needed
+    siteName: "Smart Chip Tree",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "ID Card Printers in India | Smart Chip Tree",
+    description:
+      "High-performance card printers from Entrust, Zebra, Fargo and more — ideal for secure ID and badge printing in India.",
+  },
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+};
 
 const CATEGORY_LABELS: Record<string, string> = {
   desktop: "Desktop ID/Direct-To-Card Printers",

@@ -2,12 +2,46 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Hospitality Key Card & Access Solutions | Smart Chip Tree",
+  description:
+    "Smart hotel key cards, guest credential systems, and access control solutions for modern hospitality environments worldwide.",
+  keywords: [
+    "hotel key cards",
+    "hospitality access control",
+    "guest smart cards",
+    "hotel card printing",
+    "RFID hotel solutions",
+    "Smart Chip Tree hospitality",
+  ],
+  openGraph: {
+    title: "Hospitality Smart Card Solutions | Smart Chip Tree",
+    description:
+      "Secure guest key cards and access systems for hotels and resorts.",
+    url: "https://www.smartchiptree.com/solutions/hospitality",
+    siteName: "Smart Chip Tree",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Hotel Key Card Solutions | Smart Chip Tree",
+    description:
+      "Smart access and guest credential systems for hospitality.",
+  },
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+};
 
 const HospitalitySolutions: React.FC = () => {
   return (
     <div className="bg-[#0A1A2F] text-white">
       {/* Hero Section */}
-      <section className="relative h-[440px] flex items-center justify-center text-center px-6">
+      <section className="relative min-h-[440px] md:h-[440px] flex items-center justify-center text-center px-6">
         <Image
           src="/media/hospitality-hero.jpg"
           alt="Hospitality Access & Loyalty Solutions"
@@ -18,10 +52,10 @@ const HospitalitySolutions: React.FC = () => {
         <div className="absolute inset-0 bg-[#0A1A2F]/60" />
 
         <div className="relative z-10 max-w-4xl">
-          <h1 className="text-4xl font-bold mb-4">
+          <h1 className="text-3xl md:text-4xl font-bold mb-4">
             Hospitality Access & Loyalty Solutions
           </h1>
-          <p className="text-lg text-gray-200">
+          <p className="text-base md:text-lg text-gray-200">
             Smart room access, guest key cards, and loyalty credentials designed
             to enhance guest experience and simplify hotel operations.
           </p>
@@ -132,7 +166,7 @@ const HospitalitySolutions: React.FC = () => {
           solutions tailored for hospitality.
         </p>
         <Link href="/contact">
-          <button className="bg-[#F97316] hover:bg-[#EA580C] transition text-white font-bold py-3 px-6 rounded">
+          <button className="bg-[#F97316] hover:bg-[#EA580C] transition text-white font-bold py-3.5 px-6 rounded">
             Contact Us
           </button>
         </Link>

@@ -67,3 +67,30 @@
   opacity: 0;
   pointer-events: none;
 }
+/* ===== MOBILE OPTIMIZATION ===== */
+@media (max-width: 768px) {
+  .popup {
+    width: min(92vw, 320px); /* responsive but capped */
+    right: -100%; /* ensure fully off-screen start */
+    bottom: 16px;
+    padding: 14px;
+    border-radius: 12px;
+  }
+
+  .popup img {
+    height: 100px;
+  }
+
+  .popup p {
+    font-size: 0.95rem;
+  }
+
+  .popup a {
+    font-size: 0.8rem;
+  }
+
+  /* stack spacing adjustment */
+  .popup-products {
+    bottom: 210px;
+  }
+}

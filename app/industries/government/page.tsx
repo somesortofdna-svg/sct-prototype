@@ -2,12 +2,46 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Government ID Card & Secure Issuance Solutions | Smart Chip Tree",
+  description:
+    "High-security government ID card issuance, smart credential systems, and citizen identity solutions for public sector projects worldwide.",
+  keywords: [
+    "government ID card printing",
+    "citizen ID solutions",
+    "secure card issuance",
+    "national ID systems",
+    "government smart cards",
+    "Smart Chip Tree government",
+  ],
+  openGraph: {
+    title: "Government Credential & ID Solutions | Smart Chip Tree",
+    description:
+      "Secure, scalable smart card issuance and identity infrastructure for government and public sector programs.",
+    url: "https://www.smartchiptree.com/solutions/government",
+    siteName: "Smart Chip Tree",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Government ID Solutions | Smart Chip Tree",
+    description:
+      "Secure smart card issuance and identity systems for government projects.",
+  },
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+};
 
 const GovernmentSolutions: React.FC = () => {
   return (
     <div className="bg-[#0A1A2F] text-white">
       {/* Hero Section */}
-      <section className="relative h-[440px] flex items-center justify-center text-center px-6">
+      <section className="relative min-h-[440px] md:h-[440px] flex items-center justify-center text-center px-6">
         <Image
           src="/media/govt-hero.jpg"
           alt="Government ID & Card Issuance Solutions"
@@ -18,10 +52,10 @@ const GovernmentSolutions: React.FC = () => {
         <div className="absolute inset-0 bg-[#0A1A2F]/65" />
 
         <div className="relative z-10 max-w-4xl">
-          <h1 className="text-4xl font-bold mb-4">
+          <h1 className="text-3xl md:text-4xl font-bold mb-4">
             Government ID & Secure Card Issuance Solutions
           </h1>
-          <p className="text-lg text-gray-200">
+          <p className="text-base md:text-lg text-gray-200">
             High-volume card production, secure identity infrastructure, and
             long-term operational support for government and public-sector
             programs.
@@ -143,7 +177,7 @@ const GovernmentSolutions: React.FC = () => {
           capacity planning, and long-term operational support.
         </p>
         <Link href="/contact">
-          <button className="bg-[#F97316] hover:bg-[#EA580C] transition text-white font-bold py-3 px-6 rounded">
+          <button className="bg-[#F97316] hover:bg-[#EA580C] transition text-white font-bold py-3.5 px-6 rounded">
             Contact Us
           </button>
         </Link>

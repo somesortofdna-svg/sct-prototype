@@ -2,12 +2,23 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import { ReactNode } from 'react';
 import Link from "next/link";
+import type { Metadata, Viewport } from 'next';
 
-export const metadata = {
-  title: 'My App',
+export const metadata: Metadata={
+  title: {
+    default: 'Smart Chip Tree',
+    template: "%s | Smart Chip Tree"
+},
+  description: 'Smart Chip Tree is your trusted partner for smart card solutions and services, offering innovative and reliable products for businesses and individuals.',
   icons: {
     icon: '/media/logo.ico', // <-- this is your favicon
-  },
+  }
+};
+
+
+export const viewport: Viewport = {
+  width: 'device-width',
+  initialScale: 1,
 };
 
 export default function RootLayout({

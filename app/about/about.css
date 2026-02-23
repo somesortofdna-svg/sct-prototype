@@ -13,6 +13,8 @@
 }
 
 .clients-image {
+  height: auto;
+  display: block;
   width: 100%;
   max-width: 2000px;
   border-radius: 16px;
@@ -41,4 +43,19 @@
 .join-link:hover {
   transform: translateY(-3px);
   color: #a1abc0;
+}
+@media (max-width: 768px) {
+  .join-link {
+    margin-top: 36px;
+    text-align: center;
+  }
+
+  .about-cta {
+    margin-top: 16px;
+    padding: 0 16px;
+  }
+   .clients-image:hover {
+    transform: none;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.5);
+  }
 }

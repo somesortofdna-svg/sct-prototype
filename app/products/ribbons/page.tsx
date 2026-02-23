@@ -1,6 +1,41 @@
 import Link from "next/link";
 import ribbons from "./ribbons.json";
 import "../printers/printers.css"; // 👈 reuse SAME css
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "ID Card Printer Ribbons in India | Entrust, Zebra, Fargo Ribbons | Smart Chip Tree",
+  description:
+    "Buy genuine ID card printer ribbons for Entrust, Zebra, Fargo and other leading brands. High-quality YMCKO, monochrome and specialty ribbons available across India from Smart Chip Tree.",
+  keywords: [
+    "ID card printer ribbons India",
+    "YMCKO ribbon India",
+    "Entrust ribbon",
+    "Zebra ribbon India",
+    "Fargo printer ribbon",
+    "card printer consumables India",
+    "Smart Chip Tree ribbons",
+  ],
+  openGraph: {
+    title: "Card Printer Ribbons in India | Smart Chip Tree",
+    description:
+      "Original YMCKO and monochrome ribbons for major ID card printer brands. Reliable supply across India.",
+    url: "https://www.smartchiptree.com/products/ribbons", // update if needed
+    siteName: "Smart Chip Tree",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "ID Card Printer Ribbons India | Smart Chip Tree",
+    description:
+      "Shop genuine printer ribbons for Entrust, Zebra, Fargo and more. Fast supply across India.",
+  },
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+};
 
 const CATEGORY_LABELS: Record<string, string> = {
   Colour: "Color Ribbons",

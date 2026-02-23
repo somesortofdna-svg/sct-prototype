@@ -2,12 +2,47 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Enterprise Cloud Connectivity & Access Solutions | Smart Chip Tree",
+  description:
+    "Cloud-based enterprise security and connectivity solutions. Smart Chip Tree delivers access control, smart ID systems, and scalable infrastructure for modern organizations worldwide.",
+  keywords: [
+    "enterprise access control",
+    "cloud connectivity solutions",
+    "enterprise ID card system",
+    "corporate security solutions",
+    "enterprise smart card solutions",
+    "cloud based access management",
+    "Smart Chip Tree enterprise solutions",
+  ],
+  openGraph: {
+    title: "Enterprise Cloud-Based Security Solutions | Smart Chip Tree",
+    description:
+      "Scalable cloud-enabled access control, identity management, and smart infrastructure for enterprises worldwide.",
+    url: "https://www.smartchiptree.com/solutions/enterprise", // update if needed
+    siteName: "Smart Chip Tree",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Enterprise Cloud Connectivity | Smart Chip Tree",
+    description:
+      "Cloud-driven access control and identity solutions for modern enterprises worldwide.",
+  },
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+};
 
 const Enterprise: React.FC = () => {
   return (
     <div className="bg-[#0A1A2F] text-white">
       {/* Hero Section */}
-      <section className="relative h-[420px] flex items-center justify-center text-center px-6">
+      <section className="relative min-h-[420px] md:h-[420px] flex items-center justify-center text-center px-6">
         <Image
           src="/media/enterprise-hero.jpg"
           alt="Enterprise Identity & Access Solutions"
@@ -18,10 +53,10 @@ const Enterprise: React.FC = () => {
         <div className="absolute inset-0 bg-[#0A1A2F]/60" />
 
         <div className="relative z-10 max-w-3xl">
-          <h1 className="text-4xl font-bold mb-4">
+          <h1 className="text-3xl md:text-4xl font-bold mb-4">
             Enterprise Identity & Access Solutions
           </h1>
-          <p className="text-lg text-gray-200">
+          <p className="text-base md:text-lg text-gray-200">
             Secure card issuance, access control, and identity infrastructure
             for large-scale enterprises and corporate campuses.
           </p>
@@ -121,7 +156,7 @@ const Enterprise: React.FC = () => {
           Connect with our experts to discuss scalable enterprise solutions.
         </p>
         <Link href="/contact">
-          <button className="bg-[#F97316] hover:bg-[#EA580C] transition text-white font-bold py-3 px-6 rounded">
+          <button className="bg-[#F97316] hover:bg-[#EA580C] transition text-white font-bold py-3.5 px-6 rounded">
             Contact Us
           </button>
         </Link>

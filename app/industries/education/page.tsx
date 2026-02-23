@@ -2,12 +2,47 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Smart Campus & Education Solutions in India | Smart Chip Tree",
+  description:
+    "Cloud-based smart campus solutions for schools and universities in India. Smart Chip Tree offers attendance systems, ID card solutions, and full-stack campus management software with integrated hardware.",
+  keywords: [
+    "smart campus solutions India",
+    "school attendance system India",
+    "university ID card system India",
+    "campus access control India",
+    "education smart card India",
+    "cloud campus management India",
+    "Smart Chip Tree education solutions",
+  ],
+  openGraph: {
+    title: "Cloud-Based Smart Campus Solutions | Smart Chip Tree",
+    description:
+      "End-to-end campus automation including attendance, ID cards, access control, and full-stack software for educational institutions in India.",
+    url: "https://www.smartchiptree.com/solutions/education", // update if needed
+    siteName: "Smart Chip Tree",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Smart Campus Solutions India | Smart Chip Tree",
+    description:
+      "Attendance systems, smart ID cards, and cloud-based campus management for schools and universities.",
+  },
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+};
 
 const Education: React.FC = () => {
   return (
     <div className="bg-[#0A1A2F] text-white">
       {/* Hero Section */}
-      <section className="relative h-[420px] flex items-center justify-center text-center px-6">
+      <section className="relative min-h-[420px] md:h-[420px] flex items-center justify-center text-center px-6">
         <Image
           src="/media/education-hero.jpg"
           alt="Education & Campus Solutions"
@@ -18,10 +53,10 @@ const Education: React.FC = () => {
         <div className="absolute inset-0 bg-[#0A1A2F]/60" />
 
         <div className="relative z-10 max-w-3xl">
-          <h1 className="text-4xl font-bold mb-4">
+          <h1 className="text-3xl md:text-4xl font-bold mb-4">
             Education & Campus Solutions
           </h1>
-          <p className="text-lg text-gray-200">
+          <p className="text-base md:text-lg text-gray-200">
             Scalable ID card printing, biometric attendance, and secure
             access control for modern educational institutions.
           </p>
@@ -122,7 +157,7 @@ const Education: React.FC = () => {
           Speak with our team to explore secure and scalable campus solutions.
         </p>
         <Link href="/contact">
-          <button className="bg-[#F97316] hover:bg-[#EA580C] transition text-white font-bold py-3 px-6 rounded">
+          <button className="bg-[#F97316] hover:bg-[#EA580C] transition text-white font-bold py-3.5 px-6 rounded">
             Contact Us
           </button>
         </Link>

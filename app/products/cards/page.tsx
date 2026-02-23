@@ -1,5 +1,40 @@
 import cards from "./cards.json";
 import "../printers/printers.css";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Smart Cards & PVC Cards in India | Contactless Cards | Smart Chip Tree",
+  description:
+    "Premium PVC cards, smart cards, contactless cards, and card consumables from leading global brands. Smart Chip Tree delivers secure, high-quality card solutions for businesses and government projects across India.",
+  keywords: [
+    "PVC cards India",
+    "smart cards India",
+    "contactless cards India",
+    "RFID smart cards",
+    "ID card consumables",
+    "smart card suppliers India",
+    "Smart Chip Tree smart cards",
+  ],
+  openGraph: {
+    title: "Smart Cards & PVC Cards in India | Contactless Cards | Smart Chip Tree",
+    description:
+      "Explore PVC cards, smart cards, contactless cards, and consumables from top brands. Trusted smart card solutions across India.",
+    url: "https://www.smartchiptree.com/products/smart-cards", // update if needed
+    siteName: "Smart Chip Tree",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Smart Cards & PVC Cards in India | Smart Chip Tree",
+    description:
+      "High-quality PVC, smart, and contactless cards from leading brands for secure ID and access solutions in India.",
+  },
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+};
 
 const CATEGORY_LABELS: Record<string, string> = {
   pvc: "PVC Cards",

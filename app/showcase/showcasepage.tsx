@@ -48,7 +48,7 @@ export default function VideoCarousel() {
   return (
     <section className="video-section">
       <h2 className="video-heading">
-        Customized Smart Card Solutions Made for Your Organization
+        Customized Cloud Based Smart Card Solutions Made for Your Organization
       </h2>
 
       <div className="carousel-container">

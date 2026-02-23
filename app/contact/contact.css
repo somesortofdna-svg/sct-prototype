@@ -236,10 +236,30 @@
 
 /* MOBILE */
 @media (max-width: 900px) {
+  .contact-section{
+    padding: 72px 16px;
+  }
   .contact-container {
     grid-template-columns: 1fr;
     max-width: 520px; /* 🔽 prevents tablet bloat */
     padding: 28px 22px;
+  }
+  .contact-form{
+    max-height: none;
+    overflow: visible;
+    padding-right: 0;
+
+  }
+  .submit-btn {
+    align-self: stretch;
+    text-align: center;
+    padding: 12px 20px;
+  }
+  .success-toast{
+    right: 16px;
+    left: 16px;
+    bottom: 20px;
+    justify-content: center;
   }
 }
 

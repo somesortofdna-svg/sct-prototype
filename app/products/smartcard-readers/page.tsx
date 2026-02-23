@@ -1,5 +1,40 @@
 import readers from "./readers.json";
 import "../printers/printers.css";
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Smart Card Readers in India | Contact & Contactless Readers | Smart Chip Tree",
+  description:
+    "Explore smart card readers for secure authentication across India. Contact, contactless, and dual-interface readers from leading brands available at Smart Chip Tree.",
+  keywords: [
+    "smart card readers India",
+    "contactless card reader India",
+    "USB smart card reader",
+    "dual interface card reader India",
+    "RFID card reader India",
+    "access control readers India",
+    "Smart Chip Tree readers",
+  ],
+  openGraph: {
+    title: "Smart Card & RFID Readers in India | Smart Chip Tree",
+    description:
+      "High-performance contact and contactless smart card readers for authentication, access control, and ID solutions across India.",
+    url: "https://www.smartchiptree.com/products/readers", // update if needed
+    siteName: "Smart Chip Tree",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Smart Card Readers India | Smart Chip Tree",
+    description:
+      "Reliable contact, contactless, and dual-interface smart card readers for modern security systems.",
+  },
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+};
 
 const CATEGORY_LABELS: Record<string, string> = {
   usb: "USB Smart Card Readers",

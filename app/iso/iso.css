@@ -21,20 +21,20 @@
 .iso-content {
   position: relative;
   z-index: 2;
-  padding: 140px 8% 80px;
+  padding: clamp(110px, 12vw, 140px) 8% 80px;
   text-align: center;
   color: #003153;
 }
 
 .iso-content h1 {
-  font-size: 56px;
+  font-size: clamp(32px, 6vw, 56px);
   margin-bottom: 10px;
   color: #b5cbce;
   text-shadow: 0 2px 8px rgba(0,0,0,0.3);
 }
 
 .iso-subtitle {
-  font-size: 22px;
+  font-size: clamp(16px, 2.5vw, 22px);
   color: white;
   margin-bottom: 40px;
 }
@@ -110,6 +110,10 @@
   transform: translateY(-2px);
 }
 
+.iso-wrapper {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
 /* Responsive for mobile */
 @media (max-width: 768px) {
   .iso-content h1 {
@@ -119,6 +123,7 @@
   .iso-card {
     flex-direction: column;
     text-align: center;
+    padding: 1.5rem;
   }
 
   .iso-text {
@@ -128,5 +133,12 @@
   .iso-image {
     width: 100%;
     max-width: 360px;
+  }
+  .iso-text h2{
+    font-size: 28px;
+  }
+  .iso-text p,
+  .iso-list li {
+    font-size: 16px;
   }
 }
