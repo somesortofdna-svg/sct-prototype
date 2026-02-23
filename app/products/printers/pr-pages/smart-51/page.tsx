@@ -38,7 +38,7 @@ export default function PrinterTemplate() {
 
         {/* Right Side Image Placeholder */}
         <img 
-        src="/printers2/smart-51/2.jpg" 
+        src="/printers2/smart-51/3.png" 
         alt="Smart 51" 
         className={style.printerImageBox}/>
 

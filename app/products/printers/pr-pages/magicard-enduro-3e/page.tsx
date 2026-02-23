@@ -38,7 +38,7 @@ export default function PrinterTemplate() {
 
         {/* Right Side Image Placeholder */}
         <img 
-        src="/printers2/magicard-enduro-3e/2.jpg" 
+        src="/printers2/magicard-enduro-3e/3.png" 
         alt="Magicard Enduro 3E" 
         className={style.printerImageBox}/>
 

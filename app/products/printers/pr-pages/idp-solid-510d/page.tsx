@@ -38,7 +38,7 @@ export default function PrinterTemplate() {
 
         {/* Right Side Image Placeholder */}
         <img 
-        src="/printers2/idp-solid-510d/2.jpg" 
+        src="/printers2/idp-solid-510d/3.jpg" 
         alt="IDP Solid 510D" 
         className={style.printerImageBox}/>
 

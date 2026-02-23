@@ -39,7 +39,7 @@ export default function PrinterTemplate() {
 
         {/* Right Side Image Placeholder */}
         <img 
-        src="/printers2/entrust-with-laminator/2.jpg" 
+        src="/printers2/entrust-with-laminator/2.png" 
         alt="Entrust With Laminator" 
         className={styles.printerImageBox}/>
 

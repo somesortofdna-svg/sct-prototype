@@ -42,7 +42,7 @@ export default function PrinterTemplate() {
 
         {/* Right Side Image Placeholder */}
         <img 
-        src="/printers2/entrust-datacard-em2/2.jpg" 
+        src="/printers2/entrust-datacard-em2/3.png" 
         alt="Entrust Datacard EM2" 
         className={style.printerImageBox}/>
 

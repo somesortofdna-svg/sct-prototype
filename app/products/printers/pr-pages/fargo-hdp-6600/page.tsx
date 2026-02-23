@@ -40,7 +40,7 @@ export default function PrinterTemplate() {
 
         {/* Right Side Image Placeholder */}
         <img 
-        src="/printers2/fargo-hdp-6600/2.jpg" 
+        src="/printers2/fargo-hdp-6600/1.jpg" 
         alt="Fargo HDP 6600" 
         className={style.printerImageBox}/>
 

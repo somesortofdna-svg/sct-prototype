@@ -40,7 +40,7 @@ export default function PrinterTemplate() {
 
         {/* Right Side Image Placeholder */}
         <img 
-        src="/printers2/fargo-dtc-1500/2.jpg" 
+        src="/printers2/fargo-dtc-1500/4.png" 
         alt="Fargo DTC 1500" 
         className={style.printerImageBox}/>
 

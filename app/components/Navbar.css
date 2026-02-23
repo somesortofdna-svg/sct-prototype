@@ -40,13 +40,33 @@
 }
 
 /* ===== MOBILE NAVBAR ===== */
+/* ===== MOBILE NAVBAR FIX ===== */
 @media (max-width: 768px) {
   .navbar {
+    flex-wrap: wrap; /* allow items to go to next line if needed */
+    justify-content: space-between;
     padding: 16px 20px;
   }
 
+  .navbar-brand {
+    flex: 1 1 auto; /* allow brand to shrink if needed */
+    min-width: 0;   /* prevent overflow */
+    gap: 6px;       /* smaller gap for small screens */
+  }
+
+  .brand-name {
+    font-size: 16px; /* slightly smaller */
+    white-space: nowrap; /* prevent breaking the name */
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
   .nav-links {
-    gap: 16px;
+    flex: 1 1 100%; /* nav links take full width below brand */
+    justify-content: flex-start;
+    margin-top: 8px;
+    gap: 12px;
+    flex-wrap: wrap; /* allow wrapping if too many links */
   }
 
   .nav-links a {
