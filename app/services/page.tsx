@@ -2,8 +2,9 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import './services.css';
+import Head from 'next/head';
 
-<head>
+<Head>
         <title>Our Services | Smart Chip Tree</title>
         <meta
           name="description"
@@ -20,7 +21,7 @@ import './services.css';
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Our Services | Smart Chip Tree" />
         <meta name="twitter:description" content="Cloud-enabled smart card and access control solutions for multiple industries." />
-</head>
+</Head>
 
 
 

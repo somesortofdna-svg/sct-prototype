@@ -5,39 +5,6 @@ import Navbar from "@/app/components/Navbar";
 import Head from "next/head";
 import Link from "next/link";
 import "./biometric.css";
-import type { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Biometric Solutions in India | Smart Chip Tree",
-  description:
-    "Advanced biometric authentication solutions in India with cloud connectivity, secure identity verification, and seamless access control for modern organizations.",
-
-  openGraph: {
-    title: "Biometric Solutions in India | Smart Chip Tree",
-    description:
-      "Cloud-enabled biometric systems for secure identification, attendance, and access control across Indian enterprises.",
-    url: "https://www.domain.com/biometric",
-    siteName: "Smart Chip Tree",
-    locale: "en_IN",
-    type: "website",
-    images: [
-      {
-        url: "/media/biometric-preview.jpg", // update if needed
-        width: 1200,
-        height: 630,
-        alt: "Biometric Solutions by Smart Chip Tree",
-      },
-    ],
-  },
-
-  twitter: {
-    card: "summary_large_image",
-    title: "Biometric Solutions in India | Smart Chip Tree",
-    description:
-      "Cloud-connected biometric authentication for secure and scalable identity management in India.",
-    images: ["/media/biometric-preview.jpg"], // update if needed
-  },
-};
 
 export default function BiometricsPage() {
 
@@ -78,11 +45,29 @@ const biometricProducts = [
   return (
     <>
       <Head>
-        <title>Biometric Solutions | Identity & Verification Systems</title>
-        <meta
-          name="description"
-          content="Enterprise-grade biometric identity and verification solutions including facial recognition, fingerprint biometrics, and rapid ID systems."
-        />
+        <title>Biometric ID & Authentication | Smart Chip Tree</title>
+  <meta
+    name="description"
+    content="Advanced biometric ID solutions including fingerprint, facial recognition, and multi-factor authentication for secure access and identity management."
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  {/* Open Graph */}
+  <meta property="og:title" content="Biometric ID & Authentication | Smart Chip Tree" />
+  <meta
+    property="og:description"
+    content="Advanced biometric ID solutions including fingerprint, facial recognition, and multi-factor authentication for secure access and identity management."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_IN" />
+
+  {/* Twitter */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Biometric ID & Authentication | Smart Chip Tree" />
+  <meta
+    name="twitter:description"
+    content="Advanced biometric ID solutions including fingerprint, facial recognition, and multi-factor authentication for secure access and identity management."
+  />
       </Head>
 
       <Navbar />

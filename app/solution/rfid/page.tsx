@@ -5,44 +5,7 @@ import Link from "next/link";
 import Navbar from "@/app/components/Navbar";
 import Head from "next/head";
 import "./rfid.css";
-import type { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "RFID Solutions in India | Smart Chip Tree",
-  description:
-    "Advanced RFID solutions for asset tracking, access control, inventory management, and smart automation. Cloud-enabled RFID systems designed for Indian enterprises and government projects.",
-
-  keywords: [
-    "RFID solutions India",
-    "RFID asset tracking",
-    "RFID inventory management",
-    "RFID access control India",
-    "UHF RFID systems",
-    "RFID for government projects",
-  ],
-
-  openGraph: {
-    title: "RFID Solutions in India | Smart Chip Tree",
-    description:
-      "Deploy scalable, cloud-connected RFID systems for tracking, security, and automation across India.",
-    url: "https://www.smartchiptree.com/rfid-solutions",
-    siteName: "Smart Chip Tree",
-    locale: "en_IN",
-    type: "website",
-  },
-
-  twitter: {
-    card: "summary_large_image",
-    title: "RFID Solutions for Smart Tracking | Smart Chip Tree India",
-    description:
-      "Enterprise-grade RFID solutions for tracking, security, and automation with cloud connectivity.",
-  },
-
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-  },
-};
 
 export default function RFIDPage() {
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -84,11 +47,30 @@ export default function RFIDPage() {
   return (
     <>
       <Head>
-        <title>RFID Solutions | Asset Tracking & Identification Systems</title>
-        <meta
-          name="description"
-          content="Enterprise-grade RFID solutions for asset tracking, identification, and automation with Pan-India support and global deployment capability."
-        />
+        <title>RFID Solutions & Smart Access | Smart Chip Tree</title>
+  <meta
+    name="description"
+    content="RFID-enabled smart card solutions for secure access, asset tracking, and authentication. Ideal for enterprises, education, healthcare, and government projects."
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  {/* Open Graph */}
+  <meta property="og:title" content="RFID Solutions & Smart Access | Smart Chip Tree" />
+  <meta
+    property="og:description"
+    content="RFID-enabled smart card solutions for secure access, asset tracking, and authentication. Ideal for enterprises, education, healthcare, and government projects."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_IN" />
+
+  {/* Twitter */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="RFID Solutions & Smart Access | Smart Chip Tree" />
+  <meta
+    name="twitter:description"
+    content="RFID-enabled smart card solutions for secure access, asset tracking, and authentication. Ideal for enterprises, education, healthcare, and government projects."
+  />
+        
       </Head>
 
       <Navbar />

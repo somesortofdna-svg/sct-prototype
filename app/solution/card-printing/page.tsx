@@ -5,44 +5,7 @@ import Link from "next/link";
 import Navbar from "@/app/components/Navbar";
 import Head from "next/head";
 import "./card.css";
-import type { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "High Volume Card Printing for Government & Enterprise | Smart Chip Tree India",
-  description:
-    "High-volume, high-quality card printing solutions for Indian government projects and enterprises. Ideal for ID cards, smart cards, and large-scale personalization with cloud-enabled workflows.",
-
-  keywords: [
-    "high volume card printing India",
-    "government ID card printing",
-    "smart card printing India",
-    "bulk card personalization",
-    "enterprise card printing",
-    "Aadhaar card printing solutions",
-  ],
-
-  openGraph: {
-    title: "High Volume Card Printing for Government & Enterprise | Smart Chip Tree India",
-    description:
-      "Secure, scalable card printing for government IDs, smart cards, and enterprise programs across India.",
-    url: "https://www.domain.com/high-volume-card-printing",
-    siteName: "Smart Chip Tree",
-    locale: "en_IN",
-    type: "website",
-  },
-
-  twitter: {
-    card: "summary_large_image",
-    title: "High Volume Card Printing for Government Projects | Smart Chip Tree",
-    description:
-      "Enterprise and government-grade ID card printing with high-speed, high-quality output across India.",
-  },
-
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-  },
-};
 export default function CardPrintingPage() {
   const scrollRef = useRef<HTMLDivElement>(null);
 
@@ -83,11 +46,30 @@ export default function CardPrintingPage() {
   return (
     <>
       <Head>
-        <title>Card Printing Solutions | Secure ID & Smart Cards</title>
+        <title>High-Volume & Quality Card Printing | Smart Chip Tree</title>
         <meta
           name="description"
-          content="Enterprise-grade card printing solutions for secure identification, access control, and credential issuance."
+          content="Enterprise-grade card printing solutions for government projects, financial institutions, and corporate ID systems. PVC, smart, contactless cards and consumables available from all major brands."
         />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        {/* Open Graph */}
+        <meta property="og:title" content="High-Volume & Quality Card Printing | Smart Chip Tree" />
+        <meta
+          property="og:description"
+          content="Enterprise-grade card printing solutions for government projects, financial institutions, and corporate ID systems. PVC, smart, contactless cards and consumables available from all major brands."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content="en_IN" />
+
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="High-Volume & Quality Card Printing | Smart Chip Tree" />
+        <meta
+          name="twitter:description"
+          content="Enterprise-grade card printing solutions for government projects, financial institutions, and corporate ID systems. PVC, smart, contactless cards and consumables available from all major brands."
+        />
+        
       </Head>
 
       <Navbar />

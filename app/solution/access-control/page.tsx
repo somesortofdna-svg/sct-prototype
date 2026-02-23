@@ -5,42 +5,7 @@ import Navbar from "@/app/components/Navbar";
 import Head from "next/head";
 import Link from "next/link";
 import "./access.css";
-import type { Metadata } from "next";
 
-export const metadata: Metadata = {
-  title: "Access Control Solutions",
-  description:
-    "Explore Smart Chip Tree's advanced access control solutions featuring secure authentication, cloud connectivity, real-time monitoring, and scalable identity management for modern organizations.",
-  keywords: [
-    "access control solutions",
-    "cloud-based access control",
-    "secure entry systems",
-    "identity management",
-    "Smart Chip Tree access control",
-    "RFID and smart card access",
-    "access control solutions India",
-    "cloud based access control India",
-    "RFID access control India",
-    "biometric access control India",
-    "door access system India",
-    "Smart Chip Tree India",
-    "enterprise access control India",
-  ],
-  openGraph: {
-    title: "Access Control Solutions | Smart Chip Tree",
-    description:
-      "Secure and scalable access control systems with cloud connectivity, real-time monitoring, and smart authentication for businesses and institutions.",
-    url: "https://yourdomain.com/access-control",
-    siteName: "Smart Chip Tree",
-    type: "website",
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Access Control Solutions | Smart Chip Tree",
-    description:
-      "Modern access control with cloud connectivity and real-time security management.",
-  },
-};
 
 export default function AccessControlPage() {
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -79,11 +44,29 @@ export default function AccessControlPage() {
   return (
     <>
       <Head>
-        <title>Access Control Solutions | Secure Physical Access Systems</title>
-        <meta
-          name="description"
-          content="Enterprise-grade access control solutions with cloud access, contactless systems, identity positioning, and Pan-India after-sales support."
-        />
+       <title>Access Control Solutions | Smart Chip Tree</title>
+  <meta
+    name="description"
+    content="Cloud-connected access control systems for enterprises, campuses, hospitals, and government facilities. Smart authentication, role-based access, and audit-ready security."
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  {/* Open Graph */}
+  <meta property="og:title" content="Access Control Solutions | Smart Chip Tree" />
+  <meta
+    property="og:description"
+    content="Cloud-connected access control systems for enterprises, campuses, hospitals, and government facilities. Smart authentication, role-based access, and audit-ready security."
+  />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="en_IN" />
+
+  {/* Twitter */}
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Access Control Solutions | Smart Chip Tree" />
+  <meta
+    name="twitter:description"
+    content="Cloud-connected access control systems for enterprises, campuses, hospitals, and government facilities. Smart authentication, role-based access, and audit-ready security."
+  />
       </Head>
 
       <Navbar />
