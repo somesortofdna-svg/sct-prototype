@@ -10,6 +10,7 @@ export default function Home() {
     <>
       <section id="hero"><Hero /></section>
       <SidePopUps />
+      
 
       <section className="case-study-section">
 

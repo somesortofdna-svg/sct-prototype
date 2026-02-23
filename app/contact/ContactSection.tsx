@@ -71,8 +71,8 @@ export default function ContactSection() {
         <div className="contact-info">
           <h2>Talk to Us</h2>
           <p className="contact-description">
-            Get in touch with our experts and find out how we can build a
-            complete solution for you.
+            Please switch to desktop view if you're on mobile to access the contact form and detailed contact information. 
+            <br/>We look forward to connecting with you!
           </p>
 
           <div className="contact-block">
@@ -80,7 +80,7 @@ export default function ContactSection() {
             <p><b>Noida:</b> SH-007, Ground Floor, Sector-63 Noida-201309</p>
             <p><b>Bangalore:</b> IBC Knowledge Park, Bennerghatta Road, Bangalore-560029.</p>
             <p><b>Delhi:</b> 403, Pratap Bhawan, ITO Bahadur Shah-Zafar Marg, Delhi-110002</p>
-            <p><b>Mumbai:</b> 4/495, Shaniwar Peth ,Bajirao Road Mantri Heights, Near Hotel Basera,Pune</p>
+            <p><b>Mumbai:</b> 4/495, Shaniwar Peth, Bajirao Road Mantri Heights, Near Hotel Basera, Pune</p>
           </div>
 
           <div className="contact-block">
@@ -90,7 +90,7 @@ export default function ContactSection() {
 
           <div className="contact-block">
             <h4>Phone:</h4>
-            <p>9650707992</p>
+            <p>8219749837</p>
           </div>
         </div>
 

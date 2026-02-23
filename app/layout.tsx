@@ -2,6 +2,7 @@ import "./globals.css";
 import Navbar from "./components/Navbar";
 import { ReactNode } from 'react';
 import Link from "next/link";
+import MobileNotice from "./components/MobileNotif"
 import type { Metadata, Viewport } from 'next';
 
 export const metadata: Metadata={
@@ -30,6 +31,8 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <Navbar />
+        <MobileNotice/>
+        
         <main>{children}</main>
         {/*footer*/}
         <footer className="site-footer">
